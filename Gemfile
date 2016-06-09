@@ -29,6 +29,7 @@ gem 'solidus_i18n', github: 'solidusio-contrib/solidus_i18n', branch: 'master'
 
 gem 'spree_komoju', github: 'shirakawa104/spree_komoju'
 
+gem 'seed-fu', '~> 2.3'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
