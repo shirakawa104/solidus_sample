@@ -445,6 +445,8 @@ ja:
     back_to_resource_list:
     back_to_refund_reason_list: "返金理由一覧に戻る"
     back_to_rma_reason_list:
+    back_to_shipping_categories: "配送カテゴリー一覧に戻る"
+    back_to_shipping_categories_list: "配送カテゴリー一覧に戻る"
     back_to_shipping_methods_list: "配送方法一覧に戻る"
     back_to_stock_transfers_list: "配送一覧に戻る"
     back_to_store: "ショップに戻る"
@@ -598,6 +600,7 @@ ja:
     editing_product: "商品編集"
     editing_resource:
     editing_rma_reason:
+    editing_shipping_category: "配送カテゴリー編集"
     editing_shipping_method: "配送方法編集"
     editing_stock_transfer: "配送編集"
     editing_user: "ユーザーの編集"
