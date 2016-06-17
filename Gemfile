@@ -31,6 +31,8 @@ gem 'spree_komoju', github: 'shirakawa104/spree_komoju'
 
 gem 'seed-fu', '~> 2.3'
 
+gem 'solidus_japanese_payment', path: '/Users/shirakawatoshiaki/Documents/myproject/rails/solidus_japanese_payment'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

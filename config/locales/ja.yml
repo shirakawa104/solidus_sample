@@ -652,7 +652,7 @@ ja:
     exceptions:
       count_on_hand_setter:
     exchange_for:
-    excl:
+    excl: "税込"
     existing_shipments:
     expedited_exchanges_warning:
     expiration: "有効期限"
@@ -668,9 +668,12 @@ ja:
     first_item: "一品目の値段"
     first_name: "名前（名）"
     first_name_begins_with: "名前（名）が以下の文字列で始まる"
-    flat_percent: "定額"
-    flat_rate_per_order: "定格(一注文につき)"
-    flexible_rate: "変動料金"
+    flat_percent: "定率"
+    flat_rate: "定額"
+    flat_rate_per_item: "一商品ごとの定額"
+    flat_rate_per_order: "一注文ごとの定額"
+    flexible_rate_per_package_item: "可変"
+    flexible_rate: "可変"
     forgot_password: "パスワードを忘れた方"
     free_shipping: "配送料無料"
     free_shipping_amount:
@@ -965,7 +968,7 @@ ja:
     previous_state_missing:
     price: "価格"
     price_range: "価格帯"
-    price_sack: "プライスサック"
+    price_sack: "一梱包ごと"
     process: "処理する"
     product: "商品"
     product_details: "商品詳細"
@@ -1174,8 +1177,8 @@ ja:
     shipping_address: "配送先"
     shipping_categories: "配送カテゴリー"
     shipping_category: "配送カテゴリー"
-    shipping_flat_rate_per_item: "一商品ごと"
-    shipping_flat_rate_per_order: "一注文ごと"
+    shipping_flat_rate_per_item: "一商品ごとの定額"
+    shipping_flat_rate_per_order: "一注文ごとの定額"
     shipping_flexible_rate: "可変"
     shipping_instructions: "配送に関して"
     shipping_method: "配送方法"
