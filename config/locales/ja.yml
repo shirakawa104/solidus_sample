@@ -9,7 +9,7 @@ ja:
         firstname: "名前（名）"
         lastname: "名前（姓）"
         phone: "電話番号"
-        state: "都道府県（州）"
+        state: "都道府県"
         zipcode: "郵便番号"
       spree/calculator/tiered_flat_rate:
         preferred_base_amount:
@@ -61,7 +61,7 @@ ja:
         firstname: "請求先の名"
         lastname: "請求先の姓"
         phone: "請求先の電話番号"
-        state: "請求先の都道府県(州)"
+        state: "請求先の都道府県"
         zipcode: "請求先の郵便番号"
       spree/order/ship_address:
         address1: "配送先の住所"
@@ -69,7 +69,7 @@ ja:
         firstname: "配送先の名"
         lastname: "配送先の姓"
         phone: "配送先の電話番号"
-        state: "配送先の都道府県(州)"
+        state: "配送先の都道府県"
         zipcode: "配送先の郵便番号"
       spree/payment:
         amount: "金額"
@@ -254,8 +254,8 @@ ja:
         other: "配送カテゴリ"
       spree/shipping_method:
       spree/state:
-        one: "都道府県（州）"
-        other: "都道府県（州）"
+        one: "都道府県"
+        other: "都道府県"
       spree/state_change:
       spree/stock_location:
       spree/stock_movement:
@@ -360,7 +360,7 @@ ja:
     add_product: "新規商品の追加"
     add_product_properties: "商品に属性を追加"
     add_rule_of_type: "次のタイプのルールを追加する"
-    add_state: "都道府県（州）の追加"
+    add_state: "都道府県の追加"
     add_stock: "ストック追加"
     add_stock_management:
     add_to_cart: "カートに追加"
@@ -817,7 +817,7 @@ ja:
     new_shipment_at_location:
     new_shipping_category: "新規配送カテゴリー"
     new_shipping_method: "新規配送方法"
-    new_state: "新規都道府県（州）"
+    new_state: "新規都道府県"
     new_stock_location: "新規倉庫"
     new_stock_movement:
     new_stock_transfer: "新規配送"
@@ -1184,7 +1184,7 @@ ja:
     shipping_method: "配送方法"
     shipping_methods: "配送方法"
     shipping_price_sack: "一梱包ごと"
-    shipping_total:
+    shipping_total: "送料"
     shop_by_taxonomy: "%{taxonomy}"
     shopping_cart: "ショッピングカート"
     show: "表示"
@@ -1203,8 +1203,8 @@ ja:
     ssl:
       change_protocol:
     start: "始め"
-    state: "都道府県（州）"
-    state_based: "都道府県(州)による区別"
+    state: "都道府県"
+    state_based: "都道府県による区別"
     state_machine_states:
       accepted:
       address:
@@ -1237,7 +1237,7 @@ ja:
       returned:
       shipped:
       void:
-    states: "都道府県（州）"
+    states: "都道府県"
     states_required: "必須"
     status: "状況"
     stock: "在庫"
