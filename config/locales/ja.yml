@@ -1150,7 +1150,7 @@ ja:
     ship_total:
     shipment: "発送"
     shipment_adjustments:
-    shipment_details:
+    shipment_details: "%{shipping_method}"
     shipment_mailer:
       shipped_email:
         dear_customer:
