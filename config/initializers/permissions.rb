@@ -5,6 +5,7 @@ Spree::RoleConfiguration.configure do |config|
     Spree::PermissionSets::OrderManagement,
     Spree::PermissionSets::ProductDisplay,
     Spree::PermissionSets::ProductManagement,
-    Spree::PermissionSets::ReportDisplay
+    Spree::PermissionSets::ReportDisplay,
+    Spree::PermissionSets::StaffGeneralSettingManagement
   ]
 end

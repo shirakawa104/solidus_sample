@@ -124,6 +124,8 @@ ja:
         name: "店名"
         seo_title: "SEOタイトル"
         url: "URL"
+        specific_commercial_transaction: "特定商取引HTML"
+        thanks_mail: "サンクスメール"
       spree/tax_category:
         description: "説明"
         name: "名称"
@@ -1198,6 +1200,7 @@ ja:
     slug:
     source:
     special_instructions: "特別な指示"
+    specific_commercial_transaction: "特定商取引に基づく表示"
     split: "分割"
     spree_gateway_error_flash_for_checkout: "支払い情報に問題があります。情報をお確かめになり再試行願います。"
     ssl:
@@ -1364,3 +1367,4 @@ ja:
     zipcode:
     zone: "ゾーン"
     zones: "ゾーン"
+
