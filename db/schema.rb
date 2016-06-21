@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160519043028) do
+ActiveRecord::Schema.define(version: 20160621052911) do
 
   create_table "friendly_id_slugs", force: :cascade do |t|
     t.string   "slug",                      null: false
@@ -1019,9 +1019,11 @@ ActiveRecord::Schema.define(version: 20160519043028) do
     t.string   "mail_from_address"
     t.string   "default_currency"
     t.string   "code"
-    t.boolean  "default",           default: false, null: false
+    t.boolean  "default",                         default: false, null: false
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.text     "specific_commercial_transaction"
+    t.text     "thanks_mail"
   end
 
   add_index "spree_stores", ["code"], name: "index_spree_stores_on_code"

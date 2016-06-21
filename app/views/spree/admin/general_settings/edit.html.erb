@@ -34,6 +34,18 @@
           <%= f.text_field :meta_description, class: 'fullwidth'  %>
         </div>
 
+        <div class="field" data-hook="admin_general_setting_specific_commercial_transaction">
+          <%= f.label :specific_commercial_transaction %>
+          <br />
+          <%= f.text_area :specific_commercial_transaction, class: 'fullwidth'  %>
+        </div>
+
+        <div class="field" data-hook="admin_general_setting_thanks_mail">
+          <%= f.label :thanks_mail %>
+          <br />
+          <%= f.text_area :thanks_mail, class: 'fullwidth'  %>
+        </div>
+
         <div class="field" data-hook="admin_general_setting_input_url">
           <%= f.label :url %>
           <br />
@@ -45,10 +57,11 @@
           <br />
           <%= f.text_field :mail_from_address, class: 'fullwidth'  %>
         </div>
+
       <% end %>
 
       <% if can? :clear_cache, :general_settings %>
-        <div class="row">
+        <div class="row" style="display: none;">
           <div class="alpha six columns">
             <fieldset class="no-border-bottom">
               <legend align="center"><%= Spree.t(:clear_cache)%></legend>
