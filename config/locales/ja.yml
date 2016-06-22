@@ -680,6 +680,7 @@ ja:
     free_shipping: "配送料無料"
     free_shipping_amount:
     front_end: "フロントエンド"
+    honorific: "%{lastname} %{firstname} 様"
     gateway: "ゲートウェー"
     gateway_config_unavailable: "この環境ではゲートウェーを利用できません。"
     gateway_error: "ゲートウェーエラー"
@@ -889,13 +890,13 @@ ja:
         subtotal:
         total:
       confirm_email:
-        dear_customer:
-        instructions:
-        order_summary:
-        subject: "注文確認"
-        subtotal:
-        thanks:
-        total:
+        dear_customer: "ご注文ありがとうございます"
+        instructions: "ご注文内容の確認"
+        order_summary: "ご注文詳細"
+        subject: "ご注文内容の確認"
+        subtotal: "小計"
+        thanks: ""
+        total: "合計"
     order_not_found:
     order_number: "注文"
     order_processed_successfully: "注文が完了しました。"
@@ -933,6 +934,9 @@ ja:
     payment_could_not_be_created:
     payment_identifier:
     payment_information: "支払い情報"
+    payment_mailer:
+      payment_email:
+        subject: "ご入金確認のご連絡"
     payment_method: "支払い方法"
     payment_method_not_supported:
     payment_methods: "支払い方法"
