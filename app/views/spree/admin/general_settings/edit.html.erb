@@ -40,10 +40,34 @@
           <%= f.text_area :specific_commercial_transaction, class: 'fullwidth'  %>
         </div>
 
-        <div class="field" data-hook="admin_general_setting_thanks_mail">
-          <%= f.label :thanks_mail %>
+        <div class="field" data-hook="admin_general_setting_confirm_mail">
+          <%= f.label :confirm_mail %>
           <br />
-          <%= f.text_area :thanks_mail, class: 'fullwidth'  %>
+          <%= f.text_area :confirm_mail, class: 'fullwidth'  %>
+        </div>
+
+        <div class="field" data-hook="admin_general_setting_cancel_mail">
+          <%= f.label :cancel_mail %>
+          <br />
+          <%= f.text_area :cancel_mail, class: 'fullwidth'  %>
+        </div>
+
+        <div class="field" data-hook="admin_general_setting_shipment_mail">
+          <%= f.label :shipment_mail %>
+          <br />
+          <%= f.text_area :shipment_mail, class: 'fullwidth'  %>
+        </div>
+
+        <div class="field" data-hook="admin_general_setting_payment_mail">
+          <%= f.label :payment_mail %>
+          <br />
+          <%= f.text_area :payment_mail, class: 'fullwidth'  %>
+        </div>
+
+        <div class="field" data-hook="admin_general_setting_mail_footer">
+          <%= f.label :mail_footer %>
+          <br />
+          <%= f.text_area :mail_footer, class: 'fullwidth'  %>
         </div>
 
         <div class="field" data-hook="admin_general_setting_input_url">
